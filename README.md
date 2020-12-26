@@ -1,1 +1,5 @@
-# glassmorphism
+# Glassmorphism
+
+## Screenshot
+
+![Screenshot](screenshot.png)
