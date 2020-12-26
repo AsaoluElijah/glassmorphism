@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "br_omega";
+  src: url("./font/br_omega-medium-webfont.woff");
+}
+body {
+  font-family: "br_omega", sans-serif;
+  color: #ffffff;
+  background: linear-gradient(to left, #9d33f3, #8d33f3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.glass-rect {
+  display: block;
+  max-width: 80vw;
+  margin-top: 10vh;
+  margin-bottom: 30px;
+  padding: 50px;
+  border: 1px solid rgb(235, 233, 233);
+  background: linear-gradient(
+    111.29deg,
+    rgba(255, 255, 255, 0.53) -1.83%,
+    rgba(255, 255, 255, 0) 109.95%
+  );
+  box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(70px);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.nav-brand {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+ul.nav-items {
+  margin: 0;
+  float: right;
+  display: flex;
+  list-style-type: none;
+}
+li.nav-item {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 100;
+}
+.main {
+  margin-top: 15vh;
+  font-weight: normal;
+  display: inline-block;
+  padding: 20px;
+}
+.main-title {
+  font-size: 35px;
+}
+.main-desc {
+  font-size: 17px;
+  line-height: 25px;
+}
+.btn-boost {
+  margin-top: 10px;
+  border: 0;
+  width: 120px;
+  height: 50px;
+  font-size: 17px;
+  color: #ffffff;
+  background: linear-gradient(
+    111.29deg,
+    rgba(255, 255, 255, 0.53) -1.83%,
+    rgba(255, 255, 255, 0) 109.95%
+  );
+  box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: "br_omega", sans-serif;
+  border: 1px solid rgb(235, 233, 233);
+  cursor: pointer;
+}
+.img-wrapper {
+  display: flex;
+  float: right;
+  margin-top: 5vh;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-bar {
+    display: none;
+  }
+  .feat-img {
+    display: none;
+  }
+  .glass-rect {
+    margin-top: 20vh;
+    padding: 25px;
+  }
+  .main {
+    margin-top: 5vh;
+  }
+  .main-title {
+    font-size: 30px;
+  }
+}
